@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-      jdk 'jdk-1.8.0_221'
-       maven 'Maven-3.6.0'
+      //jdk 'jdk-1.8.0_221'
+       maven 'M3'
     }
     stages {
         stage('--clean--') { 
